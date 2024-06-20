@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Flutter
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func openFlutterVC(_ sender: Any) {
+        if let flutterEngine = (UIApplication.shared.delegate as? AppDelegate)?.flutterEngine {
+            let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+            self.navigationController?.pushViewController(flutterViewController, animated: true)
+            print("done")
+        }
+    }
+    
 }
 

@@ -6,15 +6,22 @@
 //
 
 import UIKit
+import Flutter
+// The following library connects plugins with iOS platform code to this app.
+import FlutterPluginRegistrant
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    lazy var flutterEngine = FlutterEngine(name: "my flutter engine")
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        // Runs the default Dart entrypoint with a default Flutter route.
+        flutterEngine.run();
+        // Connects plugins with iOS platform code to this app.
+        GeneratedPluginRegistrant.register(with: self.flutterEngine);
+        return true;
     }
 
     // MARK: UISceneSession Lifecycle
