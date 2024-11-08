@@ -3,27 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		628829C42CDE15EF0060D0ED /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4E296008B800200CD9 /* App.xcframework */; };
+		628829C52CDE15EF0060D0ED /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4C296008B800200CD9 /* Flutter.xcframework */; };
+		628829C62CDE15EF0060D0ED /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D50296008B800200CD9 /* FlutterPluginRegistrant.xcframework */; };
+		628829C72CDE15EF0060D0ED /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4D296008B800200CD9 /* webview_flutter_wkwebview.xcframework */; };
 		62F30D2A295EFB4700200CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F30D29295EFB4700200CD9 /* AppDelegate.swift */; };
 		62F30D2C295EFB4700200CD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F30D2B295EFB4700200CD9 /* SceneDelegate.swift */; };
 		62F30D2E295EFB4700200CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F30D2D295EFB4700200CD9 /* ViewController.swift */; };
 		62F30D31295EFB4700200CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F30D2F295EFB4700200CD9 /* Main.storyboard */; };
 		62F30D33295EFB4900200CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F30D32295EFB4900200CD9 /* Assets.xcassets */; };
 		62F30D36295EFB4900200CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F30D34295EFB4900200CD9 /* LaunchScreen.storyboard */; };
-		62F30D582960154000200CD9 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4E296008B800200CD9 /* App.xcframework */; };
 		62F30D592960154000200CD9 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4E296008B800200CD9 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		62F30D5B2960154700200CD9 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4C296008B800200CD9 /* Flutter.xcframework */; };
 		62F30D5C2960154700200CD9 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4C296008B800200CD9 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		62F30D5D2960154B00200CD9 /* flutter_inappwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4F296008B800200CD9 /* flutter_inappwebview.xcframework */; };
-		62F30D5E2960154B00200CD9 /* flutter_inappwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4F296008B800200CD9 /* flutter_inappwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		62F30D5F2960154F00200CD9 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D50296008B800200CD9 /* FlutterPluginRegistrant.xcframework */; };
 		62F30D602960154F00200CD9 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D50296008B800200CD9 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		62F30D612960155100200CD9 /* OrderedSet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D51296008B800200CD9 /* OrderedSet.xcframework */; };
-		62F30D622960155100200CD9 /* OrderedSet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D51296008B800200CD9 /* OrderedSet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		62F30D632960155300200CD9 /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4D296008B800200CD9 /* webview_flutter_wkwebview.xcframework */; };
 		62F30D642960155300200CD9 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62F30D4D296008B800200CD9 /* webview_flutter_wkwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,11 +31,9 @@
 			dstSubfolderSpec = 10;
 			files = (
 				62F30D642960155300200CD9 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */,
-				62F30D5E2960154B00200CD9 /* flutter_inappwebview.xcframework in Embed Frameworks */,
 				62F30D5C2960154700200CD9 /* Flutter.xcframework in Embed Frameworks */,
 				62F30D602960154F00200CD9 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
 				62F30D592960154000200CD9 /* App.xcframework in Embed Frameworks */,
-				62F30D622960155100200CD9 /* OrderedSet.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,12 +49,10 @@
 		62F30D32295EFB4900200CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62F30D35295EFB4900200CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F30D37295EFB4900200CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62F30D4C296008B800200CD9 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ios_using_prebuilt_module/Flutter/Release/Flutter.xcframework; sourceTree = "<group>"; };
+		62F30D4C296008B800200CD9 /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ios_using_prebuilt_module/Flutter/Release/Flutter.xcframework; sourceTree = "<group>"; };
 		62F30D4D296008B800200CD9 /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = webview_flutter_wkwebview.xcframework; path = ios_using_prebuilt_module/Flutter/Release/webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
 		62F30D4E296008B800200CD9 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ios_using_prebuilt_module/Flutter/Release/App.xcframework; sourceTree = "<group>"; };
-		62F30D4F296008B800200CD9 /* flutter_inappwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_inappwebview.xcframework; path = ios_using_prebuilt_module/Flutter/Release/flutter_inappwebview.xcframework; sourceTree = "<group>"; };
 		62F30D50296008B800200CD9 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ios_using_prebuilt_module/Flutter/Release/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
-		62F30D51296008B800200CD9 /* OrderedSet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OrderedSet.xcframework; path = ios_using_prebuilt_module/Flutter/Release/OrderedSet.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F30D632960155300200CD9 /* webview_flutter_wkwebview.xcframework in Frameworks */,
-				62F30D5D2960154B00200CD9 /* flutter_inappwebview.xcframework in Frameworks */,
-				62F30D5B2960154700200CD9 /* Flutter.xcframework in Frameworks */,
-				62F30D5F2960154F00200CD9 /* FlutterPluginRegistrant.xcframework in Frameworks */,
-				62F30D612960155100200CD9 /* OrderedSet.xcframework in Frameworks */,
-				62F30D582960154000200CD9 /* App.xcframework in Frameworks */,
+				628829C42CDE15EF0060D0ED /* App.xcframework in Frameworks */,
+				628829C52CDE15EF0060D0ED /* Flutter.xcframework in Frameworks */,
+				628829C62CDE15EF0060D0ED /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				628829C72CDE15EF0060D0ED /* webview_flutter_wkwebview.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,10 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				62F30D4E296008B800200CD9 /* App.xcframework */,
-				62F30D4F296008B800200CD9 /* flutter_inappwebview.xcframework */,
 				62F30D4C296008B800200CD9 /* Flutter.xcframework */,
 				62F30D50296008B800200CD9 /* FlutterPluginRegistrant.xcframework */,
-				62F30D51296008B800200CD9 /* OrderedSet.xcframework */,
 				62F30D4D296008B800200CD9 /* webview_flutter_wkwebview.xcframework */,
 			);
 			name = Frameworks;
@@ -354,6 +342,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +372,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
